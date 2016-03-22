@@ -42,6 +42,10 @@ Similarly, if you wish to move backwards, you must put your hand at least a valu
 
 ![Movement Diagram](/Movement Diagram.jpg?raw=true "Movement Diagram")
 
+Here is a diagram of the axis for the Leap Motion as reference (I know, it's confusing why the Z axis is reversed, oh well. I accounted for that in the code, so your movements should be natural, and the robot will mimic your hand over the Leap Motion).
+
+![Leap Motion Axes Diagram](/Leap Motion Axes.png?raw=true "Leap Motion Axes Diagram")
+
 ## Gesture Support
 
 The code currently supports 2 gestures; keyTap and screenTap
