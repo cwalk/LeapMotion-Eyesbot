@@ -10,7 +10,7 @@ YouTube:
 
 Eyesbot is a robot engineered by a very intelligent coworker of mine. It is mainly made out of 3D printed material, with silicon molded grip attached to 2 rear wheels. The front has a ball on the underside to allow it to roll smoothly. The electronics consist of a custom PCB using Bluetooth to connect to a smart device (like an iPod or iPhone) which the robot uses to communicate to a backend service. The device's front facing camera can be used for navigation, or taking pictures. The front of the robot also has 2 LEDs for headlights.
 
-## Setup
+## Code Setup
 
 Make sure you have nodejs and npm installed.
 
