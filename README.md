@@ -40,6 +40,6 @@ Currently the code allows the user to drive the robot as follows in the diagram 
 
 The code currently supports 2 gestures; keyTap and screenTap
 
-- keyTap: Perform a keyTap gesture over the Leap Motion to turn on the Eyesbot's headlights. Doing it a 2nd time will turn them off.
+- **keyTap**: Perform a keyTap gesture over the Leap Motion to turn on the Eyesbot's headlights. Doing it a 2nd time will turn them off.
 
-- screenTap: Perform a screenTap gesture over the Leap Motion to take a picture with the iDevice's front facing camera. You can later access this in the camera roll of the Photos application. 
+- **screenTap**: Perform a screenTap gesture over the Leap Motion to take a picture with the iDevice's front facing camera. You can later access this in the camera roll of the Photos application. 
