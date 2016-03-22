@@ -34,9 +34,13 @@ This allows us to send commands through HTTP GETS to the backend service, depend
 
 Currently the code allows the user to drive the robot as follows in the diagram below. You can change the values to speed up/slow down the robot if you wish.
 
-If your hand is above a value of "200" on the Y axis, as percieved by the Leap Motion, the code automatically send the speeds "0.0" to both the left and right wheels, essentially stopping the robot. If you ever want to stop the robot, just move your hand higher on the Y axis until the robot stops moving.
+If your hand is above a value of 200 on the Y axis, as percieved by the Leap Motion, the code automatically send the speeds "0.0" to both the left and right wheels, essentially stopping the robot. If you ever want to stop the robot, just move your hand higher on the Y axis until the robot stops moving.
 
-![Movement Diagram](/Movement Diagram.png?raw=true "Movement Diagram")
+If you wish to move forward, you must put your hand past at least a value of -30 in the Z axis. If the X axis is detected greater than 50, you will move forward right, or less than -50 forward left. If X axis is between -50 and 50, you will move straight forward.
+
+Similarly, if you wish to move backwards, you must put your hand at least a value of 30 in the Z axis. If the X axis is detected greater than 50, you will move backward right, or less than -50 backward left. If X axis is between -50 and 50, you will move straight backward.
+
+![Movement Diagram](/Movement Diagram.jpg?raw=true "Movement Diagram")
 
 ## Gesture Support
 
