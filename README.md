@@ -16,7 +16,7 @@ Make sure you have nodejs and npm installed.
 
 Install cylonjs, a robotics javascript framework. More info here: https://cylonjs.com
 
-Clone the directory: `git clone https://github.com/cwalk/LeapMotion-Eyesbot/`
+Clone the directory: `git clone https://github.com/cwalk/LeapMotion-Eyesbot`
 
 Navigate to the directory and do an `npm install` and you should have cylon and cylon-leapmotion.
 
