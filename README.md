@@ -4,7 +4,7 @@ Leap Motion projects with Eyesbot robot
 
 ## YouTube
 
-YouTube: 
+YouTube: https://www.youtube.com/watch?v=p1Aup4VvjZU
 
 ## Summary
 
